@@ -1,0 +1,18 @@
+body {
+    animation: shake 0.4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {transform: translate(0.50px, -1.41px);}
+    10% {transform: translate(-0.99px, -1.13px);}
+    20% {transform: translate(1.13px, 0.98px);}
+    30% {transform: translate(1.48px, 0.24px);}
+    40% {transform: translate(-0.11px, -1.50px);}
+    50% {transform: translate(-0.78px, -1.28px);}
+    60% {transform: translate(-0.20px, -1.49px);}
+    70% {transform: translate(-0.94px, 1.17px);}
+    80% {transform: translate(-0.23px, 1.48px);}
+    90% {transform: translate(-1.21px, -0.89px);}
+    100% {transform: translate(-0.11px, 1.50px);}
+}

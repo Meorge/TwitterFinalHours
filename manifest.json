@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Twitter Final Hours",
+    "content_scripts": [
+        {
+            "matches": ["*://*.twitter.com/*"],
+            "js": ["twitter_final_hours.js"],
+            "css": ["shake.css"]
+        }
+    ]
+}
